@@ -1,0 +1,12 @@
+#返回结果数的最大数
+everything.max_return=30
+#是否开启索引
+everything.enable_build_index=false
+#排序规则
+everything.order_by_desc=false
+#文件监控间隔时间
+everything.interval=60000
+#索引包含目录
+everything.handle_path.include_path=C:\\;D:\\;E:\\
+#索引排除目录
+everything.handle_path.exclude_path=C:\\Windows

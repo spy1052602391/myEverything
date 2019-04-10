@@ -1,0 +1,17 @@
+package EverthingRoot.core.dao;
+
+import EverthingRoot.core.model.Condition;
+import EverthingRoot.core.model.Thing;
+
+import java.util.List;
+
+public interface FileIndexDao {
+    //≤Â»Î
+    void insert(Thing thing);
+
+    //≤È—Ø
+    List<Thing> query(Condition condition);
+
+    //…æ≥˝
+    void delete(Thing thing);
+}

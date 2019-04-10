@@ -1,0 +1,12 @@
+package EverthingRoot.core.interceptor;
+
+import EverthingRoot.core.model.Thing;
+
+/**
+ * ¼ìË÷½á¹ûthingµÄÀ¹½ØÆ÷
+ */
+
+public interface ThingInterceptor {
+
+    void apply(Thing thing);
+}
